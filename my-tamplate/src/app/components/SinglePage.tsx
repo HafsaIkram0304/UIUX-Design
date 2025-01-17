@@ -75,11 +75,11 @@ export default function SinglePage() {
           <div className="text-center mt-8">
             <p>or</p>
             <button className="w-full bg-gray-100 border text-black py-2 rounded mt-2 flex items-center justify-center">
-              <Image src='/Google.svg' alt="Google" className="h-6 mr-2" />
+              <Image src="assets/Google.svg" alt="Google" width={6} height={6} className="h-6 mr-2" />
               Sign in with Google
             </button>
             <button className="w-full bg-gray-100 border text-black py-2 rounded mt-2 flex items-center justify-center">
-              <Image src='/Apple.svg' alt="Apple" className="h-6 mr-2" 
+              <Image src="assets/Apple.svg" alt="Apple" width={6} height={6} className="h-6 mr-2" 
               />
               Sign in with Apple
             </button>
