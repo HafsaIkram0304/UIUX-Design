@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { IoChevronForwardOutline } from "react-icons/io5";
 import Footer from "./Footer";
 import Header from "./Header";
@@ -74,11 +75,11 @@ export default function SinglePage() {
           <div className="text-center mt-8">
             <p>or</p>
             <button className="w-full bg-gray-100 border text-black py-2 rounded mt-2 flex items-center justify-center">
-              <img src="/Google.svg" alt="Google" className="h-6 mr-2" />
+              <Image src='/Google.svg' alt="Google" className="h-6 mr-2" />
               Sign in with Google
             </button>
             <button className="w-full bg-gray-100 border text-black py-2 rounded mt-2 flex items-center justify-center">
-              <img src="/Apple.svg" alt="Apple" className="h-6 mr-2" 
+              <Image src='/Apple.svg' alt="Apple" className="h-6 mr-2" 
               />
               Sign in with Apple
             </button>
