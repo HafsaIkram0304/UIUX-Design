@@ -6,9 +6,6 @@ import Header from './components/Header'
 import Shop from './shop/page'
 import Blog from './blog/page'
 import Contact from './contact/page'
-import Cart from './components/Cart'
-import Checkout from './components/Ceckout'
-import SinglePage from './components/SinglePage'
 
 
 
@@ -18,10 +15,7 @@ function Home() {
     <Header />
       <Hero />
       <SubHero />
-      <Shop />
-      <Cart />
-      <Checkout/>
-      <SinglePage/>
+      <Shop />  
       <Blog />
       <Contact />
     <Footer />
